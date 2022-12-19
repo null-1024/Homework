@@ -113,6 +113,7 @@ def main():
         dimension = range(random.randint(1, 3))
         matrix_a = [[random.randint(0, 1) for j in dimension] for i in dimension]
         matrix_b = [[random.randint(0, 1) for j in dimension] for i in dimension]
+        
         # 显示运算
         print_matrix(matrix_a)
         print('join')
